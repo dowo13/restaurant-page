@@ -1,0 +1,115 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#content{
+    height: 100vh;
+    width: 100vw;
+}
+.intro {
+    font-size: 100px;
+    /* height: 15vh; */
+    text-align: center;
+    color: #ff0000;
+    text-shadow: 2px 2px #000000;
+}
+.material-icons{
+    color: blue;
+    font-size: 50px;
+}
+.hr{
+    height: 1vh;
+    background-color: blue;
+    padding: 0;
+    width: 100vw;
+}
+.tab{
+    width: 100vw;
+    text-align: center;
+    background-color: chartreuse;
+    font-size: 0;
+}
+.tab-buttons:hover{
+    cursor: pointer;
+}
+.tab-buttons:active{
+    background-color: blue;
+}
+#home, #menu, #contact{
+    font-size: 30px;
+    width: 33.33%;
+    height: 5vh;
+    outline: none;
+    bottom: 0;
+    transition: ease-in-out 0.5s;
+    /* transition-timing-function: ease-in-out; */
+    /* transition: ease-in-out 1s; */
+}
+/* #home:hover, #menu:hover, #contact:hover{
+    cursor: pointer;
+    background-color: antiquewhite;
+    bottom: -0.5vh;
+    transition: bottom 0.5s;
+}
+#home:active, #menu:active, #contact:active{
+    background-color: ;
+} */
+
+.mainSec{
+    height: 80vh;
+    width: 90vw;
+    margin: 0 auto;
+    background-color: aqua;
+    border: black solid 2px;
+    /* display: grid; */
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+.copyP{
+    grid-column: 1/4;
+    font-size: 30px;
+}
+.fishPic{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    max-height: 75%;
+    max-width: 100%;
+    border: solid black 2px;
+    justify-self: center;
+    align-self: center;
+}
+.copyP2{
+    grid-column: 2/5;
+    grid-row: 2/3;
+    font-size: 30px;
+    overflow: hidden;
+}
+.mainMenu{
+    height: 80vh;
+    width: 90vw;
+    margin: 0 auto;
+    background-color:#ffc0cb;
+    border: black solid 2px;
+    display: none;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+.headerMenu{
+    text-align: center;
+    grid-column: 1/4;
+}
+.mainContact{
+    height: 80vh;
+    width: 90vw;
+    margin: 0 auto;
+    background-color: #ffa500;
+    border: black solid 2px;
+    display: none;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+.contactHeader{
+    text-align: center;
+    grid-column: 1/4;
+}
