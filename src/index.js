@@ -28,7 +28,7 @@ function component(){
         if(el.id === 'home'){
           menuPageDiv.style.display = 'none';
           contactPageDiv.style.display = 'none';
-          homePageDiv.style.display = 'grid'
+          homePageDiv.style.display = 'block'
         }else if(el.id === 'menu'){
           contactPageDiv.style.display = 'none';
           homePageDiv.style.display = 'none';

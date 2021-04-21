@@ -7,7 +7,7 @@ const startRestaurantPage = ()=>{
 
     const hr = document.createElement('hr');
     hr.className = 'hr'
-    intro.appendChild(hr);
+    // intro.appendChild(hr);
 
     return intro;
 }
